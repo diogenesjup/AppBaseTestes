@@ -137,7 +137,7 @@ function not5(){
 });
 
 cordova.plugins.notification.local.on("click", function (notification) {
-    alert('Works');
+    alert('Works 5');
 });
 }
 
@@ -151,7 +151,7 @@ function not6(){
 });
 
 cordova.plugins.notification.local.on("click", function (notification) {
-    alert('Works');
+    alert('Works 6');
 });
 }
 
@@ -167,7 +167,7 @@ function not7(){
                   id: ID_NOTIFICATION_1,
                   title: "Novo treino para você!",
                   text: "Você recebeu uma nova solicitação de treino no aplicativo Tepping",
-                  led: "FF0000",
+                  led: "#FF0000",
                   badge: 1
               });
 

@@ -50,10 +50,6 @@
     <preference name="FadeSplashScreen" value="false"/>
     <preference name="FadeSplashScreenDuration" value="1200"/>
     
-    <plugin name="cordova-android-support-gradle-release">
-       <variable name="ANDROID_SUPPORT_VERSION" value="21.0.0"/>
-    </plugin>
-
     <!--
     <plugin name="phonegap-plugin-push" spec="2.1.3" />
     <plugin name="cordova-android-support-gradle-release" spec="https://github.com/dpa99c/cordova-android-support-gradle-release.git" />
@@ -100,9 +96,7 @@ ou
 
   -->
    
-
-   <preference name="android-minSdkVersion" value="21" />
-   <preference name="android-targetSdkVersion" value="29" />
+  <preference name="android-targetSdkVersion" value="29" />
    
     
     <preference name="phonegap-version" value="cli-9.0.0" />

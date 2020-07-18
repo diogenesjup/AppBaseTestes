@@ -173,12 +173,12 @@ ou
     <!-- Define app splash screen for each platform. -->
             
     <!-- you can use any density that exists in the Android project -->
-    <splash src="www/images/splashcreen.png" />
+    <splash src="www/images/splashscreen.png" />
 
-    <gap:splash src="www/images/splashcreen.png" gap:platform="android" density="hdpi" />
-    <gap:splash src="www/images/splashcreen.png" gap:platform="android" density="ldpi" />
-    <gap:splash src="www/images/splashcreen.png" gap:platform="android" density="mdpi" />
-    <gap:splash src="www/images/splashcreen.png" gap:platform="android" density="xhdpi" />
+    <gap:splash src="www/images/splashsreen.png" gap:platform="android" density="hdpi" />
+    <gap:splash src="www/images/splashscreen.png" gap:platform="android" density="ldpi" />
+    <gap:splash src="www/images/splashscreen.png" gap:platform="android" density="mdpi" />
+    <gap:splash src="www/images/splashscreen.png" gap:platform="android" density="xhdpi" />
     
     <access origin="*"/>
     <allow-navigation href="*" />

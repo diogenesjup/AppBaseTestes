@@ -134,7 +134,7 @@ ou
     </feature>    
     
     <!--<plugin name="de.appplant.cordova.plugin.local-notification" />-->
-    <plugin name="de.appplant.cordova.plugin.local-notification" />
+    <plugin name="cordova-plugin-local-notification" spec="https://github.com/timkellypa/cordova-plugin-local-notifications" />
     
 
     <!-- Define app icon for each platform. -->

@@ -1,0 +1,115 @@
+<jsv-header>
+	<button-header-left></button-header-left>
+       Cadastro
+    <button-header-right></button-header-right>
+</jsv-header>
+<jsv-content>
+   
+            <!-- PAGE CONTENT FIM -->
+            <div class="page-content">
+
+                  <!-- HEADER -->
+                  <header>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-7 voltar-login">
+                           <a href="javascript:void(0)" onclick="$JSView.goToView('viewLogin');" title="Voltar para o login">
+                              <img src="images/voltar-rocho.svg" alt="Voltar para o login">
+                           </a>
+                        </div>
+                        <div class="col-5 no-padding logo-principal logo-principal-apenas" style="text-align: right;">
+                           <img src="images/logo.svg" alt="BealtyConnect logo">
+                        </div>
+                      </div>
+                    </div>
+                  </header>
+                  <!-- HEADER -->
+
+                  <!-- CONTEÚDO -->
+                  <div class="corpo-comum">
+                    <div class="container conteudo">
+                       
+                           <!-- LOGIN -->
+                           <div class="login">
+                             
+                             <h2>CRIAR UMA CONTA</h2>
+
+                             <div class="form-group inputs-combo">
+                                <span class="form-control-feedback">
+                                  <img src="images/input-login.svg" alt="Nome">
+                                </span>
+                                <input type="text" class="form-control" name="nome" id="cadastroNome" placeholder="Seu Nome" autocomplete="new-text">
+                             </div>
+
+                             <div class="form-group inputs-combo">
+                                <span class="form-control-feedback">
+                                  <img src="images/input-login.svg" alt="Usuário">
+                                </span>
+                                <input type="text" class="form-control" name="usuario" id="cadastroEmail" placeholder="Seu e-mail" autocomplete="new-text">
+                             </div>
+                             <div class="form-group inputs-combo">
+                                <span class="form-control-feedback">
+                                  <img src="images/input-login.svg" alt="Confirmar E-mail">
+                                </span>
+                                <input type="text" class="form-control" name="confirmar-email" id="cadastroEmailConfirmacao" placeholder="Confirme seu e-mail" autocomplete="new-text">
+                             </div>
+
+                             <div class="form-group inputs-combo">
+                                <span class="form-control-feedback">
+                                   <img src="images/input-senha.svg" alt="Senha">
+                                </span>
+                                <input type="password" class="form-control" name="senha" id="cadastroSenha" placeholder="Senha" autocomplete="new-password">
+                             </div>
+
+                             <div class="form-group inputs-combo">
+                                <span class="form-control-feedback">
+                                  <img src="images/input-login.svg" alt="Celular">
+                                </span>
+                                <input type="text" class="form-control" name="celular" id="cadastroCelular" placeholder="DDD + número" autocomplete="new-text">
+                             </div>
+                            
+                            <!--
+                             <div class="row no-padding">
+                               <div class="col-7 no-padding the-check">
+                                    <div class="form-group form-check">
+                                      <input type="checkbox" class="form-check-input" checked id="mantenhaMeConectadoCadastro">
+                                      <label class="form-check-label" for="mantenhaMeConectado">Mantenha-me conectado</label>
+                                    </div>
+                               </div>
+                               <div class="col-5 no-padding esqueci-senha">
+                               </div>
+                             </div>
+                           -->
+
+                             <div class="form-group" style="margin-top: 20px;">
+                               <button type="button" class="btn btn-primary" onclick="procCadastro()">CADASTRAR</button>
+                             </div>
+                             <div class="ou-cadastro">
+                                <p>ou</p>
+                                <p>
+                                  <a href="javascript:void(0)" title="JÁ TENHO UMA CONTA" onclick="$JSView.goToView('viewLogin');">JÁ TENHO UMA CONTA</a>
+                                </p>
+                             </div>
+
+
+                           </div>
+                           <!-- LOGIN -->
+                     
+
+                    </div>
+                  </div>
+                  <!-- CONTEÚDO -->
+                                    
+              
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+
+              
+               
+            </div>
+            <!-- PAGE CONTENT FIM -->
+    
+</jsv-content>

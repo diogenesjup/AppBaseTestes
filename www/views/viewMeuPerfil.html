@@ -1,0 +1,213 @@
+<jsv-header>
+	<button-header-left></button-header-left>
+       Detalhe Perfil Usuário Logado
+    <button-header-right></button-header-right>
+</jsv-header>
+<jsv-content>
+   
+            <!-- PAGE CONTENT FIM -->
+            <div class="page-content">
+
+                  <!-- HEADER -->
+                  <header>
+                    <div class="container">
+                      <div class="row">
+                        <!-- LINK PERFIL -->
+                        <div class="col-5 no-padding logo-principal header-perfil">
+                           <a href="javascript:void(0)" onclick="verificarSessao('perfil'); procMenu(4); //verPerfil();" title="Clique para ver o perfil">
+                             <img src="images/perfil.png" alt="Clique para ver o perfil">
+                           </a>
+                           <img src="images/logo-simples.png" alt="BealtyConnect logo">
+                        </div>
+                        <!-- LINK PERFIL -->
+                        <!-- HEADERS LINKS -->
+                        <div class="col-7 no-padding header-links">
+                             
+                            <a href="javascript:void(0)" title="Grupos" onclick="grupos();">
+                               <img src="images/header-perfil.png" alt="Grupos" />
+                            </a>
+
+                            <a href="javascript:void(0)" onclick="verMinhasMensagens();" title="Aqui o nome desse action">
+                               <img src="images/header-mensagens.png" alt="" />
+                            </a>
+
+                            <a href="javascript:void(0)" class="logoff-link" onclick="logoff()" title="Sair ou trocar de conta">
+                                <i class="fa fa-power-off"></i>
+                            </a>
+
+                            <a href="javascript:void(0)" onclick="notificacoes();" title="Aqui o nome desse action">
+                               <img src="images/header-notificacao.png" alt="" style="width: 22px !important;height: auto;" />
+                               <span>0</span>
+                            </a> 
+
+                        </div>
+                        <!-- HEADERS LINKS -->
+                      </div>
+                    </div>
+                  </header>
+                  <!-- HEADER -->
+
+                 
+
+                  <!-- CONTEÚDO -->
+                  <div class="corpo-comum">
+                   
+                    
+                     <!-- BUSCA HEADER -->
+                     <div class="busca-header">
+                          <div class="container">
+                             <div class="row">
+                                <div class="col-12 no-padding">
+                                       
+                                       <div class="input-group mb-3">
+                                          <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                              <i class="fa fa-search" aria-hidden="true"></i>
+                                            </span>
+                                          </div>
+                                          <input type="text" class="form-control" placeholder="Pesquisar">
+                                       </div>
+
+                                </div>
+                             </div>
+                          </div>
+                      </div>
+                      <!-- BUSCA HEADER -->
+
+
+                    <div class="container conteudo">
+                 
+                       <!-- CAIXA BRANCA -->
+                       <div class="caixa-branca">
+                           
+                          <!-- TOTAL DE SEGUIDORES -->
+                           <div class="perfil-tot-seguidores">
+                              <h3 id="perfilTotSeguidores">
+                                <span></span>
+                                <small>seguidores</small>
+                              </h3>
+                           </div>
+                           <!-- TOTAL DE SEGUIDORES -->
+
+                           <!-- PERFIL BANNER -->
+                           <div class="perfil-banner text-center">
+                              <div class="foto-perfil" style="background:url('images/perfil.png') #f2f2f2 no-repeat;background-size: cover;background-position: center center;">
+                                 &nbsp;
+                              </div>
+                              <h2 id="perfilNomeUsuario">
+                                <span>carregando</span><br>
+                                <small id="nomeEmpresaPerfil">carregando</small>
+                              </h2>
+                              <p class="perfil-resumo-class" id="perfilResumo">
+                                carregando
+                              </p>
+                              <div class="row action-editar-perfil">
+                                 <div class="col-12">
+                                     <a href="javascript:void(0)" title="Editar suas informações" onclick="editarPerfil()" class="btn btn-default" style="font-weight: 300 !important;">
+                                       EDITAR INFORMAÇÕES <i style="padding-left: 10px;" class="fa fa-pencil"></i>
+                                     </a>
+                                 </div>
+                              </div>
+                              <hr>
+                              <div class="row menos-padding-for-6">
+                                <div class="col-12">
+                                   <a href="javascript:void(0)" onclick="aviso('Em breve!','Estamos quase lá, essa função ainda está em desenvolvimento');" title="1 mês de Premium grátis" class="btn btn-carnaval">
+                                       1 mês de Premium grátis
+                                   </a>
+                                </div>
+                                
+                              </div>
+                           </div>
+                           <!-- PERFIL BANNER -->
+                       
+
+                       </div>
+                       <!-- CAIXA BRANCA -->
+
+
+                       <!-- CAIXA TRANSPARENTE -->
+                       <div class="caixa-branca caixa-transparente">
+                         <h4>SE CONECTE COM MAIS PESSOAS</h4>
+                         <div class="progress">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">2/3</div>
+                        </div>
+                         <p>Dica: Lorem ipsum dolor sit amet, consect.</p>
+                       </div>
+                       <!-- CAIXA TRANSPARENTE -->
+
+                       <!-- CAIXA BRANCA -->
+                       <div class="caixa-branca">
+                          
+                          <h4>SEUS SEGUIDORES</h4>
+
+                          <!-- LOOP SEGUIDORES -->
+                          <div class="row loop-seguidores loop-seguidores-container" id="loopSeguidores">
+                             <p>carregando....</p>
+                          </div>
+                          <!-- LOOP SEGUIDORES -->
+
+                       </div>
+                       <!-- CAIXA BRANCA -->
+
+                       <!-- CAIXA BRANCA -->
+                       <div class="caixa-branca">
+                          
+                          <h4>SEGUINDO</h4>
+
+                          <!-- LOOP SEGUIDORES -->
+                          <div class="row loop-seguidores" id="loopSeguindo">
+                             <p>carregando....</p>
+                          </div>
+                          <!-- LOOP SEGUIDORES -->
+
+                       </div>
+                       <!-- CAIXA BRANCA -->
+
+
+                       <!-- CAIXA BRANCA -->
+                       <div class="caixa-branca">
+                          
+                          <h4>FOTOS</h4>
+
+                          <!-- LOOP FOTOS -->
+                          <div class="row loop-fotos">
+                             <p>carregando....</p>
+                          </div>
+                          <!-- LOOP FOTOS -->
+
+                       </div>
+                       <!-- CAIXA BRANCA -->
+
+                    
+                     <!-- SUBTÍTULO -->
+                     <p>&nbsp;</p>
+                     <div class="row subtitulo">
+                             <div class="col-7">
+                               SUAS PUBLICAÇÕES
+                             </div>
+                             <div class="col-5">
+                               <hr>
+                             </div>
+                     </div>
+
+                     <!-- SUBTÍTULO -->
+
+                     <div class="feedInnerPerfil" id="feedInnerPerfil"></div>
+
+                    </div>
+                  </div>
+                  <!-- CONTEÚDO -->
+                                    
+              
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+
+              
+               
+            </div>
+            <!-- PAGE CONTENT FIM -->
+    
+</jsv-content>

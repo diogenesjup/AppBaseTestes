@@ -1,0 +1,22 @@
+{
+  "name": "com.appbase.testes",
+  "version": "1.5.0",
+  "description": "Testes gerais de funcionalidades Cordova",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogenesjup/AppBaseTestes.git"
+  },
+  "keywords": [
+    "tepping"
+  ],
+  "author": " App Base Testes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogenesjup/AppBaseTestes/issues"
+  },
+  "homepage": "https://github.com/diogenesjup/AppBaseTestes#readme"
+}

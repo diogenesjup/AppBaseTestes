@@ -1,0 +1,16 @@
+* autorPostagemPerfil(ID_PERFIL) = direcionar para o perfil do autor da postagem
+* curtir = curtir postagens
+* comentario = ver view de comentários
+* compartilhar = compartilhar externamente
+
+
+* seguirPerfil(SELETOR) = seguir usuário
+* mensagem = enviar mensagem
+
+* carregarSeguidores = carregar os seguidores de um perfil
+* carregarFotos = carregar as fotos de um perfil
+
+*verMinhasMensagens = direcionar o usuário para que ele veja todas as mensagens dele
+
+localStorage.setItem("usuarioDados",JSON.stringify(dados));
+JSON.parse(localStorage.getItem("usuarioDados"));

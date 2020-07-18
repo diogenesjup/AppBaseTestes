@@ -1,0 +1,7 @@
+{
+  "name": "com.appbase.testes",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}

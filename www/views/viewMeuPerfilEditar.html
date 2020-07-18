@@ -1,0 +1,154 @@
+<jsv-header>
+	<button-header-left></button-header-left>
+       Detalhe Perfil Usuário Logado Editar Dados
+    <button-header-right></button-header-right>
+</jsv-header>
+<jsv-content>
+   
+            <!-- PAGE CONTENT FIM -->
+            <div class="page-content">
+
+                  <!-- HEADER -->
+                  <header>
+                    <div class="container">
+                      <div class="row">
+                        <!-- LINK PERFIL -->
+                        <div class="col-5 no-padding logo-principal header-perfil">
+                           <a href="javascript:void(0)" onclick="verificarSessao('perfil'); procMenu(4); //verPerfil();" title="Clique para ver o perfil">
+                             <img src="images/perfil.png" alt="Clique para ver o perfil">
+                           </a>
+                           <img src="images/logo-simples.png" alt="BealtyConnect logo">
+                        </div>
+                        <!-- LINK PERFIL -->
+                        <!-- HEADERS LINKS -->
+                        <div class="col-7 no-padding header-links">
+                             
+                            <a href="javascript:void(0)" title="Grupos" onclick="grupos();">
+                               <img src="images/header-perfil.png" alt="Grupos" />
+                            </a>
+
+                            <a href="javascript:void(0)" onclick="verMinhasMensagens();" title="Aqui o nome desse action">
+                               <img src="images/header-mensagens.png" alt="" />
+                            </a>
+
+                            <a href="javascript:void(0)" class="logoff-link" onclick="logoff()" title="Sair ou trocar de conta">
+                                <i class="fa fa-power-off"></i>
+                            </a>
+
+                            <a href="javascript:void(0)" onclick="notificacoes();" title="Aqui o nome desse action">
+                               <img src="images/header-notificacao.png" alt="" style="width: 22px !important;height: auto;" />
+                               <span>0</span>
+                            </a> 
+
+                        </div>
+                        <!-- HEADERS LINKS -->
+                      </div>
+                    </div>
+                  </header>
+                  <!-- HEADER -->
+
+                 
+
+                  <!-- CONTEÚDO -->
+                  <div class="corpo-comum">
+                   
+                    
+                     <!-- BUSCA HEADER -->
+                     <div class="busca-header">
+                          <div class="container">
+                             <div class="row">
+                                <div class="col-12 no-padding">
+                                       
+                                       <div class="input-group mb-3">
+                                          <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                              <i class="fa fa-search" aria-hidden="true"></i>
+                                            </span>
+                                          </div>
+                                          <input type="text" class="form-control" placeholder="Pesquisar">
+                                       </div>
+
+                                </div>
+                             </div>
+                          </div>
+                      </div>
+                      <!-- BUSCA HEADER -->
+
+
+                    <div class="container conteudo">
+                       
+                       <h3 class="titulo-generico">Editar Perfil</h3>
+                       
+                       <!-- CAIXA BRANCA -->
+                       <div class="caixa-branca editar-perfil">
+                           
+                          <!-- TOTAL DE SEGUIDORES -->
+                           <div class="perfil-tot-seguidores">
+                              <h3 id="perfilTotSeguidores">
+                                <span></span>
+                                <small>seguidores</small>
+                              </h3>
+                           </div>
+                           <!-- TOTAL DE SEGUIDORES -->
+
+                           <!-- PERFIL BANNER -->
+                           <div class="perfil-banner text-center">
+                              <div class="foto-perfil" style="background:url('images/perfil.png') #f2f2f2 no-repeat;background-size: cover;background-position: center center;">
+                                 &nbsp;
+                              </div>
+
+                              <p style="text-align: center;font-size: 15px;">
+                                <a href="javascript:void(0)" title="Editar foto de perfil" onclick="editarFotoPerfil();" class="badge badge-secondary">
+                                  editar foto de perfil
+                                </a>
+                              </p>
+                              
+                                <div class="form-group">
+                                  <label>Seu nome completo</label>
+                                  <input type="text" class="form-control" id="editarPerfilNomeCompleto" placeholder="Seu nome completo">
+                                </div>
+                                <div class="form-group">
+                                  <label>Nome da empresa</label>
+                                  <input type="text" class="form-control" id="editarPerfilNomeEmpresa" placeholder="Nome da empresa">
+                                </div>
+                                <div class="form-group">
+                                  <label>Resumo, Bio</label>
+                                  <textarea id="editarPerfilResumo" class="form-control" rows="4" placeholder="Um breve resumo sobre você"></textarea>
+                                </div>
+                              
+                              
+                              <div class="row action-editar-perfil">
+                                 <div class="col-12">
+                                     <a href="javascript:void(0)" onclick="salvarDadosPerfilEdicao();" id="btnSalvarDadosPerfil" title="Editar suas informações" class="btn btn-primary" style="font-weight: 300 !important;font-weight: bold !important;">
+                                       ATUALIZAR DADOS
+                                     </a>
+                                 </div>
+                              </div>
+                              <hr>
+                             
+                           </div>
+                           <!-- PERFIL BANNER -->
+                       
+
+                       </div>
+                       <!-- CAIXA BRANCA -->
+
+
+
+                    </div>
+                  </div>
+                  <!-- CONTEÚDO -->
+                                    
+              
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+              <br clear="both">
+
+              
+               
+            </div>
+            <!-- PAGE CONTENT FIM -->
+    
+</jsv-content>
